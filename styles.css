@@ -1,0 +1,93 @@
+/* Global Styles */
+html{box-sizing: border-box;}
+*{margin: 0px; padding:0; box-sizing: inherit; }
+body{
+	margin:0;
+	padding:0;
+	font-family:arial, sans-serif;
+	font-weight:bold;
+	font-size:16px;
+	line-height:1.4em;
+	color: #000000;
+}
+/* Typography */
+
+h1,h2,h3,h4,h5,h6{
+	font-family:arial, sans-serif;
+	font-weight:bold;
+	font-size: 13px;
+
+}
+a{
+	color:rgb(210,177,233);
+	transition: all .5s ease;
+	-webkit-transition: all .5s ease;
+}
+a:hover {
+	color:rgb(21,117,233);
+}
+/* Header + Nagigation */
+header{
+	margin:0;
+	padding:20px;
+	width: 100%;
+
+}
+header h1{
+	float:right;
+	font-family: baskerville;
+	font-weight:normal;
+	font-size: 30px;
+}
+header h4{
+	float: right;
+}
+}
+
+header nav{
+	float: left;
+}
+
+header nav ul{
+	list-style: none;
+	font-size: 130px;
+	
+} 
+header nav ul li{
+	display:inline-block;
+	line-height: 100%
+
+}
+
+header nav ul li a {
+	text-decoration: none;
+	color:pink;
+}
+header nav ul li a.active{
+	color: red;
+}
+/* Layout */
+.container{
+	max-width: 700px;
+	margin:auto;
+	position: relative;
+
+}
+ul.thumbnails{
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+ul.thumbnails li{
+	width:280px;
+}
+ul.thumbnails li img{
+	max-width: 100%;
+}
+/* Content */
+
+/* Footer */
+
+/* MediaQueries */
